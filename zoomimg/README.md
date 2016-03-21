@@ -11,6 +11,7 @@ convert -resize 60%x60% ./*.JPG   small.jpg
 ```
      for var in `ls`; do mv -f "$var" `echo "$var" |sed 's/^............./quanmin/'`; done
 ```
+其中 ………….每个点代替字符数，这里有十个点，就是把前10个字符替换为quanmin。
 
 ## 3.使用tinypng进行压缩
 
